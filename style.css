@@ -1,0 +1,260 @@
+body{
+  background-color: aliceblue;
+}
+
+header .navbar {
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 3rem;
+  transition: 0.5s;
+}
+
+header .navbar.bg-nav-down {
+  background-color: rgb(146, 146, 54);
+  padding-bottom: 1rem;
+}
+
+/* HERO START */
+.hero {
+  height: 150vh;
+  background-color: antiquewhite;
+
+}
+
+.hero .container-md {
+  width: 100%;
+  position: relative;
+}
+
+.bg-hero {
+  height: 140vh;
+  z-index: 0;
+}
+
+.bg-hero .img1,
+.bg-hero .img2 {
+  height: 22rem;
+}
+
+.btn .ai-cart {
+  font-size: 2rem;
+}
+
+.btn .ai-cart span {
+  top: 35%;
+  left: 90%;
+}
+
+.text-hero {
+  padding: 13rem 0 0 3rem;
+  height: max-content;
+  width: 50%;
+}
+
+.text-hero h1 {
+  font-size: 4rem;
+}
+
+.order-hero {
+  padding: 7px 30px 7px 0px;
+}
+
+.order-hero div {
+  margin: 0 7px 0 10px;
+}
+
+.order-hero div .ai-cart {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.tombol-hero a {
+  margin-left: 3rem;
+}
+
+.right-hero .image {
+  margin-top: 10rem;
+  background-color: rgb(81, 95, 58);
+  border-radius: 100%;
+  width: max-content;
+  margin-left: 8rem;
+  padding: 2rem 4rem 4rem 4rem;
+}
+
+.right-hero .image img {
+  height: 19rem;
+  width: 19rem;
+}
+
+.price {
+  padding-top: 12rem;
+}
+
+.jenis {
+  padding-left: 6rem;
+  width: max-content;
+  height: max-content;
+}
+
+.jenis div {
+  content: "";
+  backdrop-filter: blur(5px);
+  height: max-content;
+}
+
+.jenis p {
+  width: max-content;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+
+.reting-hero {
+  padding-right: 12rem;
+  justify-content: end;
+  width: 100%;
+  height: max-content;
+}
+
+.reting-hero div {
+  content: "";
+  backdrop-filter: blur(5px);
+  font-size: 1.5rem;
+}
+.reting-hero div .d-flex p {
+  width: max-content;
+  margin-bottom: 0;
+}
+.reting-hero div .d-flex i {
+  margin-left: 3px;
+}
+
+.harga-hero {
+  margin-left: 7rem;
+  padding-top: 7rem;
+  width: max-content;
+  height: max-content;
+}
+.harga-hero div {
+  content: "";
+  backdrop-filter: blur(5px);
+}
+
+.harga-hero p {
+  width: max-content;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+
+
+
+/* POPULAR NOW */
+.popular-now{
+  margin-top: 10rem;
+}
+
+.popular-now p{
+  font-weight: 700;
+  margin-left: 7rem;
+}
+
+
+.popular-now .contain-popular .bg-popular{
+  content: "";
+  width: 85rem;
+  height: 25rem;
+  background-color: rgb(160, 228, 143);
+  margin-top: 7rem;
+  border-radius: 4rem;
+  padding: 0 3rem 0 3rem;
+}
+
+.box-product{
+  width: auto;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.356);
+  position: relative;
+  padding: 10px;
+  backdrop-filter: blur(5px);
+}
+
+.product{
+  width: max-content;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  padding: 20px;
+  backdrop-filter: blur(5px);
+}
+
+.img-product img{
+  width: 20rem;
+  height: auto;
+}
+
+.rating-popular{
+  height: 100%;
+  width: max-content;
+  z-index: 4;
+  padding: 5px;
+  background-color: rgba(245, 245, 245, 0.418);
+}
+
+.rating-popular .d-flex{
+  padding: 2px 12px 2px 12px;
+}
+
+.text-product{
+  margin-top: 13rem;
+  width: 20rem;
+}
+
+.cart .ai-cart{
+  padding: 5px 10px 5px 10px ;
+}
+
+.items-popular{
+  justify-content: center;
+  align-items: center;
+}
+
+.ap{
+  font-weight: bold;
+  color: rgb(255, 148, 9);
+}
+
+/* POPULAR NOW END*/
+
+/* HERO END */
+
+
+
+/* SERVICE START */
+
+.service{
+  height: 150vh;
+  padding-top: 25rem;
+}
+
+.content-service{
+  gap: 8rem;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.img-service{
+  width: max-content;
+}
+
+.img{
+  width: 15rem;
+  background-color: aqua;
+}
+
+.img-service img{
+  width: 13rem ;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/* SERVICE END */
